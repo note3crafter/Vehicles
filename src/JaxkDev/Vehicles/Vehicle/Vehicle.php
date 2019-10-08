@@ -49,7 +49,7 @@ abstract class Vehicle extends Entity implements Rideable
 	protected $driver = null;
 
 	/** @var Player[] */
-	protected $passengers = [];
+	public $passengers = [];
 
 	/** @var null|Vector3 */
 	protected $driverPosition = null;
